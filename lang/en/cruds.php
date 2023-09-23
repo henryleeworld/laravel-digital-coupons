@@ -81,6 +81,8 @@ return [
             'amount_helper'     => ' ',
             'total_codes'       => 'Total codes',
             'purchased_codes'   => 'Purchased codes',
+            'add_codes'         => 'Add codes',
+            'generate'          => 'Generate',
             'created_at'        => 'Created at',
             'created_at_helper' => ' ',
             'updated_at'        => 'Updated at',

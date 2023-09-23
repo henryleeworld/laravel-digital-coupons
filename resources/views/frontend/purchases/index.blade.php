@@ -72,8 +72,8 @@
     $(function () {
 
   let languages = {
-    'en': 'https://cdn.datatables.net/plug-ins/1.10.19/i18n/English.json',
-    'zh_TW': '../js/plugins/datatables/1.10.21/i18n/Chinese-traditional.json'
+    'en': '//cdn.datatables.net/plug-ins/1.13.6/i18n/en-GB.json',
+    'zh_TW': '//cdn.datatables.net/plug-ins/1.13.6/i18n/zh-HANT.json'
   };
 
   let dtButtons = $.extend(true, [], $.fn.dataTable.defaults.buttons)

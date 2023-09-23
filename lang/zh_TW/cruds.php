@@ -81,6 +81,8 @@ return [
             'amount_helper'     => ' ',
             'total_codes'       => '所有代碼',
             'purchased_codes'   => '購買代碼',
+            'add_codes'         => '新增代碼',
+            'generate'          => '產生',
             'created_at'        => '建立時間',
             'created_at_helper' => ' ',
             'updated_at'        => '更新時間',

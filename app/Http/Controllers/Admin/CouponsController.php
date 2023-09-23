@@ -151,6 +151,6 @@ class CouponsController extends Controller
             }
         }
 
-        return redirect()->route('admin.coupons.index')->withMessage('Codes generated successfully');
+        return redirect()->route('admin.coupons.index')->withMessage(__('Codes generated successfully'));
     }
 }

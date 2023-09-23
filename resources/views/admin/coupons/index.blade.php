@@ -42,7 +42,7 @@
                         </th>
                         @can('coupon_create')
                             <th>
-                                Add codes
+                                {{ trans('cruds.coupon.fields.add_codes') }}
                             </th>
                         @endcan
                         <th>
@@ -83,9 +83,9 @@
                                     <form action="{{ route('admin.coupons.generateCodes', $coupon->id) }}" method="POST" class="form-inline">
                                         @csrf
                                         <div class="input-group input-group-sm">
-                                            <input type="number" class="form-control" name="amount" placeholder="Amount" required>
+                                            <input type="number" class="form-control" name="amount" placeholder="{{ trans('cruds.coupon.fields.amount') }}" required>
                                         </div>
-                                        <input type="submit" class="btn btn-xs btn-success ml-2" value="Generate">
+                                        <input type="submit" class="btn btn-xs btn-success ml-2" value="{{ trans('cruds.coupon.fields.generate') }}">
                                     </form>
                                 </td>
                             @endcan

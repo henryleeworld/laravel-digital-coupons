@@ -8,11 +8,11 @@
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.8",
         "laravel/cashier": "^14.14",
-        "laravel/framework": "^10.43",
+        "laravel/framework": "^10.48",
         "laravel/passport": "^11.10",
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.9",
-        "laravel/ui": "^4.4",
+        "laravel/ui": "^4.5",
         "laraveldaily/laravel-charts": "^0.2.3",
         "spatie/laravel-medialibrary": "^10.15",
         "yajra/laravel-datatables-oracle": "^10.11"
@@ -20,13 +20,13 @@
     "require-dev": {
         "bugsnag/bugsnag-laravel": "^2.26",
         "fakerphp/faker": "^1.23.1",
-        "laravel/dusk": "^7.12",
-        "laravel/pint": "^1.13",
-        "laravel/sail": "^1.27",
-        "mockery/mockery": "^1.6.7",
+        "laravel/dusk": "^7.13",
+        "laravel/pint": "^1.15",
+        "laravel/sail": "^1.29",
+        "mockery/mockery": "^1.6.11",
         "nunomaduro/collision": "^7.10",
         "phpunit/phpunit": "^10.5",
-        "spatie/laravel-ignition": "^2.4"
+        "spatie/laravel-ignition": "^2.7"
     },
     "autoload": {
         "psr-4": {

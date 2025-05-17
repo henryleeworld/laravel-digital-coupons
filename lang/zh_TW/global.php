@@ -123,7 +123,7 @@ return [
     'my_profile'                           => '我的個人資料',
     'change_password'                      => '變更密碼',
     'delete_account'                       => '刪除帳號',
-    'delete_account_warning'               => '輸入您的電子郵件地址以確認您要刪除帳戶。\n此操作不可撤銷。',
+    'delete_account_warning'               => '輸入您的電子郵件地址以確認您要刪除帳號。\n此操作不可撤銷。',
     'two_factor'                           => [
         'title'          => '雙重認證',
         'sub_title'      => '雙重認證碼已經通過電子郵件發送。該代碼在:minutes分鐘內有效。如果尚未收到，請按重新發送。',
@@ -178,7 +178,7 @@ return [
     'due_date'                             => '到期日',
     'edit_calendar_source'                 => '編輯日曆來源',
     'email_greet'                          => '你好',
-    'email_line1'                          => '你收到這封郵件是因為我們收到你的帳戶密碼重置請求。',
+    'email_line1'                          => '你收到這封郵件是因為我們收到你的帳號密碼重置請求。',
     'email_line2'                          => '如果沒有要求重新設定密碼，則不需要進一步的操作。',
     'email_regards'                        => '致上問候',
     'end_time'                             => '結束時間',
